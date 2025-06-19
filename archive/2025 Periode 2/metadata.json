@@ -1,0 +1,15 @@
+{
+  "period_name": "2025 Periode 2",
+  "archived_date": "2025-06-19 11:20:45",
+  "files_archived": [
+    "training1_inschrijvingen.csv",
+    "training2_inschrijvingen.csv",
+    "training3_inschrijvingen.csv"
+  ],
+  "registration_counts": {
+    "training1": 3,
+    "training2": 2,
+    "training3": 1,
+    "total": 6
+  }
+}

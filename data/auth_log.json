@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2025-06-19 11:30:15",
+    "success": true,
+    "ip_address": "Unknown",
+    "user_agent": "Admin Dashboard"
+  },
+  {
+    "timestamp": "2025-06-19 11:57:11",
+    "success": true,
+    "ip_address": "Unknown",
+    "user_agent": "Admin Dashboard"
+  },
+  {
+    "timestamp": "2025-06-19 12:09:00",
+    "success": true,
+    "ip_address": "Unknown",
+    "user_agent": "Admin Dashboard"
+  },
+  {
+    "timestamp": "2025-06-19 13:17:03",
+    "success": true,
+    "ip_address": "Unknown",
+    "user_agent": "Admin Dashboard"
+  },
+  {
+    "timestamp": "2025-06-19 14:21:23",
+    "success": true,
+    "ip_address": "Unknown",
+    "user_agent": "Admin Dashboard"
+  },
+  {
+    "timestamp": "2025-06-19 14:28:33",
+    "success": false,
+    "ip_address": "Unknown",
+    "user_agent": "Admin Dashboard"
+  },
+  {
+    "timestamp": "2025-06-19 14:28:35",
+    "success": true,
+    "ip_address": "Unknown",
+    "user_agent": "Admin Dashboard"
+  }
+]

@@ -1,0 +1,119 @@
+{
+  "current_round": 2,
+  "rounds_completed": [
+    1
+  ],
+  "manual_assignments": {
+    "1": [
+      {
+        "name": "Jan de Vries",
+        "level": 5.0,
+        "training": "Maandag 19:00 - Beginners Training",
+        "timestamp": "2025-06-19T13:18:19.201068"
+      }
+    ]
+  },
+  "excluded_people": [],
+  "planning_history": [
+    {
+      "round": 1,
+      "timestamp": "2025-06-19T13:17:39.539356",
+      "assigned_by_training": {
+        "Maandag 19:00 - Beginners Training": [
+          [
+            "Marie Jansen",
+            8.0
+          ],
+          [
+            "Lisa van Dam",
+            9.0
+          ],
+          [
+            "Tom Hendriks",
+            6.0
+          ]
+        ],
+        "Dinsdag 20:00 - Gevorderden Training": [
+          [
+            "Piet Bakker",
+            3.0
+          ]
+        ],
+        "Woensdag 18:00 - Gemengd Training": [
+          [
+            "Emma de Wit",
+            4.0
+          ],
+          [
+            "Mike Peters",
+            5.0
+          ]
+        ]
+      },
+      "manual_needed": [
+        [
+          "Jan de Vries",
+          5.0,
+          "Alle voorkeuren zaten vol of geen match"
+        ],
+        [
+          "Anna Smit",
+          1.0,
+          "Niveau te laag voor alle trainingen"
+        ],
+        [
+          "Kevin Mulder",
+          2.0,
+          "Niveau te laag voor alle trainingen"
+        ],
+        [
+          "Sarah Koning",
+          7.0,
+          "Alle voorkeuren zaten vol of geen match"
+        ],
+        [
+          "Sophie Berg",
+          10.0,
+          "Niveau te hoog voor alle trainingen"
+        ],
+        [
+          "Alex de Jong",
+          0.0,
+          "Niveau te laag voor alle trainingen"
+        ]
+      ],
+      "assigned": [
+        {
+          "name": "Marie Jansen",
+          "level": 8.0,
+          "training": "Maandag 19:00 - Beginners Training"
+        },
+        {
+          "name": "Lisa van Dam",
+          "level": 9.0,
+          "training": "Maandag 19:00 - Beginners Training"
+        },
+        {
+          "name": "Tom Hendriks",
+          "level": 6.0,
+          "training": "Maandag 19:00 - Beginners Training"
+        },
+        {
+          "name": "Piet Bakker",
+          "level": 3.0,
+          "training": "Dinsdag 20:00 - Gevorderden Training"
+        },
+        {
+          "name": "Emma de Wit",
+          "level": 4.0,
+          "training": "Woensdag 18:00 - Gemengd Training"
+        },
+        {
+          "name": "Mike Peters",
+          "level": 5.0,
+          "training": "Woensdag 18:00 - Gemengd Training"
+        }
+      ]
+    }
+  ]
+}
