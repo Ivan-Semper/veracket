@@ -22,7 +22,7 @@ st.sidebar.markdown("**Alleen voor Technische Commissie**")
 st.sidebar.markdown("---")
 st.sidebar.success("✅ Ingelogd als Admin")
 
-pagina = st.sidebar.radio("📂 Kies een pagina", ["📋 Aanmeldingen", "🎯 Ronde Planning", "📅 Periode Beheer", "Upload Inschrijvingen", "📅 Trainingsbeheer", "🔍 Login Geschiedenis"])
+pagina = st.sidebar.radio("📂 Kies een pagina", ["📋 Aanmeldingen", "🎯 Ronde Planning", "📅 Periode Beheer", "📅 Trainingsbeheer", "🔍 Login Geschiedenis"])
 
 if pagina == "📋 Aanmeldingen":
     aanmeldingen_overzicht()
@@ -32,37 +32,6 @@ elif pagina == "🎯 Ronde Planning":
 
 elif pagina == "📅 Periode Beheer":
     periode_beheer()
-
-elif pagina == "Upload Inschrijvingen":
-    st.title("🎾 Tennis Training Inplanner")
-    st.markdown("Gebruik dit dashboard om automatisch spelers in te plannen voor trainingen op basis van voorkeuren en inschrijftijd.")
-    
-    uploaded_file = st.file_uploader("📤 Upload het CSV-bestand met inschrijvingen", type=["csv"])
-
-    if uploaded_file:
-        try:
-            # Read the CSV file
-            df = pd.read_csv(uploaded_file)
-            
-            # Clean up column names
-            df.columns = [col.strip() for col in df.columns]  # Remove leading/trailing spaces
-            df.columns = [col.replace(' ', '_') for col in df.columns]  # Replace spaces with underscores
-            
-            st.success("Bestand succesvol geladen!")
-            st.subheader("📋 Inschrijvingen voorbeeld")
-            st.dataframe(df.head())
-
-            if st.button("Ga door naar inplanning"):
-                import os
-                os.makedirs("data", exist_ok=True)
-                st.session_state["df"] = df
-                df.to_csv("data/inschrijvingen.csv", index=False)
-                st.success("Bestand succesvol opgeslagen! Ga naar de Inplanning pagina via het menu links.")
-
-        except Exception as e:
-            st.error(f"Fout bij het inladen van bestand: {e}")
-    else:
-        st.info("Wacht op upload van CSV-bestand...")
 
 elif pagina == "📅 Trainingsbeheer":
     beheer.trainingsbeheer_tab()

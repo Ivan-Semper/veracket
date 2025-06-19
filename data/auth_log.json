@@ -40,5 +40,11 @@
     "success": true,
     "ip_address": "Unknown",
     "user_agent": "Admin Dashboard"
+  },
+  {
+    "timestamp": "2025-06-19 14:59:48",
+    "success": true,
+    "ip_address": "Unknown",
+    "user_agent": "Admin Dashboard"
   }
 ]
