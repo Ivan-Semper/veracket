@@ -436,12 +436,12 @@ def registration_form():
     if language == "nl":
         permission_explanation = """
         <div style="margin-top: 12px; padding: 0.75rem 1rem; background-color: rgb(231, 243, 255); border: 1px solid rgba(49, 51, 63, 0.2); border-radius: 0.5rem; color: rgb(49, 51, 63);">
-        <strong>💡 Belangrijk:</strong> Als je niveau <strong>beter</strong> is dan de training (lager getal = beter niveau), 
+        <strong>💡 Belangrijk:</strong> Als het trainingniveau <strong>beter</strong> is dan jouw eigen niveau (lager getal = beter niveau), 
         dan heb je toestemming van een trainer nodig.<br><br>
         
         <strong>Voorbeeld:</strong><br>
-        • Jij bent niveau <strong>7</strong> (beginner)<br>
-        • Training is voor niveau <strong>6</strong> (actieve clubspeler)<br>
+        • Jij bent niveau <strong>7</strong><br>
+        • Training is voor niveau <strong>6</strong><br>
         • Dan moet je deze checkbox aanvinken, anders word je <strong>niet ingedeeld</strong><br><br>
         
         <strong>Let op:</strong> Als de TC twijfels heeft over je niveau, 

@@ -2,16 +2,55 @@
   "current_round": 3,
   "rounds_completed": [
     1,
-    2,
-    3
+    2
   ],
   "manual_assignments": {
     "1": [
       {
-        "name": "Jan de Vries",
-        "level": 5.0,
+        "name": "Lisa van Dijk",
+        "training": "Dinsdag 20:00 - Trainer B",
+        "assigned_by": "manual",
+        "timestamp": "2025-06-23T14:08:44.090297"
+      },
+      {
+        "name": "Mila Hendriks",
         "training": "Maandag 19:00 - Trainer A",
-        "timestamp": "2025-06-20T14:16:12.713886"
+        "assigned_by": "manual",
+        "timestamp": "2025-06-23T14:08:51.854321"
+      }
+    ],
+    "2": [
+      {
+        "name": "Milan Bakker",
+        "training": "Maandag 19:00 - Trainer A",
+        "assigned_by": "manual",
+        "timestamp": "2025-06-23T14:09:04.134344"
+      },
+      {
+        "name": "Anna Smit",
+        "training": "Maandag 19:00 - Trainer A",
+        "assigned_by": "manual",
+        "timestamp": "2025-06-23T14:09:07.775670"
+      },
+      {
+        "name": "Lisa van Dijk",
+        "training": "Maandag 19:00 - Trainer A",
+        "assigned_by": "manual",
+        "timestamp": "2025-06-23T14:09:09.797534"
+      },
+      {
+        "name": "Mila Hendriks",
+        "training": "Maandag 19:00 - Trainer A",
+        "assigned_by": "manual",
+        "timestamp": "2025-06-23T14:09:11.764093"
+      }
+    ],
+    "3": [
+      {
+        "name": "Milan Bakker",
+        "training": "Dinsdag 20:00 - Trainer B",
+        "assigned_by": "manual",
+        "timestamp": "2025-06-23T14:09:24.788572"
       }
     ]
   },
@@ -19,222 +58,203 @@
   "planning_history": [
     {
       "round": 1,
-      "timestamp": "2025-06-20T14:15:55.178330",
+      "timestamp": "2025-06-23T14:08:36.927542",
       "assigned_by_training": {
         "Maandag 19:00 - Trainer A": [
           [
-            "Marie Jansen",
+            "Emma de Vries",
+            7.0
+          ],
+          [
+            "Sophie van der Berg",
             8.0
           ],
           [
-            "Lisa van Dam",
+            "David Peters",
             9.0
           ],
           [
-            "Tom Hendriks",
-            6.0
+            "Mila Hendriks",
+            7.0
           ]
         ],
         "Dinsdag 20:00 - Trainer B": [
           [
-            "Piet Bakker",
+            "Lucas Janssen",
+            5.0
+          ],
+          [
+            "Milan Bakker",
+            4.0
+          ],
+          [
+            "Lisa van Dijk",
             3.0
           ]
         ],
         "Woensdag 18:00 - Trainer C": [
           [
-            "Emma de Wit",
-            4.0
+            "Anna Smit",
+            6.0
           ],
           [
-            "Mike Peters",
+            "Tom de Groot",
             5.0
-          ]
-        ]
-      },
-      "manual_needed": [
-        [
-          "Jan de Vries",
-          5.0,
-          "Alle voorkeuren zaten vol of geen match"
-        ],
-        [
-          "Anna Smit",
-          1.0,
-          "Niveau te laag voor alle trainingen"
-        ],
-        [
-          "Kevin Mulder",
-          2.0,
-          "Niveau te laag voor alle trainingen"
-        ],
-        [
-          "Sarah Koning",
-          7.0,
-          "Alle voorkeuren zaten vol of geen match"
-        ],
-        [
-          "Sophie Berg",
-          10.0,
-          "Niveau te hoog voor alle trainingen"
-        ],
-        [
-          "Alex de Jong",
-          0.0,
-          "Niveau te laag voor alle trainingen"
-        ],
-        [
-          "jan de Vries",
-          2.0,
-          "Niveau te laag voor alle trainingen"
-        ],
-        [
-          "ivabn Semper",
-          8.0,
-          "Alle voorkeuren zaten vol of geen match"
-        ]
-      ],
-      "assigned": [
-        {
-          "name": "Marie Jansen",
-          "level": 8.0,
-          "training": "Maandag 19:00 - Trainer A"
-        },
-        {
-          "name": "Lisa van Dam",
-          "level": 9.0,
-          "training": "Maandag 19:00 - Trainer A"
-        },
-        {
-          "name": "Tom Hendriks",
-          "level": 6.0,
-          "training": "Maandag 19:00 - Trainer A"
-        },
-        {
-          "name": "Piet Bakker",
-          "level": 3.0,
-          "training": "Dinsdag 20:00 - Trainer B"
-        },
-        {
-          "name": "Emma de Wit",
-          "level": 4.0,
-          "training": "Woensdag 18:00 - Trainer C"
-        },
-        {
-          "name": "Mike Peters",
-          "level": 5.0,
-          "training": "Woensdag 18:00 - Trainer C"
-        }
-      ]
-    },
-    {
-      "round": 2,
-      "timestamp": "2025-06-20T14:16:18.875174",
-      "assigned_by_training": {
-        "Woensdag 18:00 - Trainer C": [
+          ],
           [
-            "Jan de Vries",
-            5.0
-          ]
-        ],
-        "Dinsdag 20:00 - Trainer B": [
-          [
-            "Mike Peters",
-            5.0
-          ]
-        ],
-        "Vrijdag 17:30 - 19:00": [
-          [
-            "ivabn Semper",
-            8.0
-          ]
-        ]
-      },
-      "manual_needed": [
-        [
-          "Piet Bakker",
-          3.0,
-          "Alle voorkeuren zaten vol of geen match"
-        ],
-        [
-          "Anna Smit",
-          1.0,
-          "Niveau te laag voor alle trainingen"
-        ],
-        [
-          "Tom Hendriks",
-          6.0,
-          "Alle voorkeuren zaten vol of geen match"
-        ],
-        [
-          "Emma de Wit",
-          4.0,
-          "Alle voorkeuren zaten vol of geen match"
-        ],
-        [
-          "Sarah Koning",
-          7.0,
-          "Alle voorkeuren zaten vol of geen match"
-        ],
-        [
-          "Alex de Jong",
-          0.0,
-          "Niveau te laag voor alle trainingen"
-        ],
-        [
-          "jan de Vries",
-          2.0,
-          "Niveau te laag voor alle trainingen"
-        ]
-      ],
-      "assigned": [
-        {
-          "name": "Jan de Vries",
-          "level": 5.0,
-          "training": "Woensdag 18:00 - Trainer C"
-        },
-        {
-          "name": "Mike Peters",
-          "level": 5.0,
-          "training": "Dinsdag 20:00 - Trainer B"
-        },
-        {
-          "name": "ivabn Semper",
-          "level": 8.0,
-          "training": "Vrijdag 17:30 - 19:00"
-        }
-      ]
-    },
-    {
-      "round": 3,
-      "timestamp": "2025-06-20T14:16:24.138842",
-      "assigned_by_training": {
-        "Woensdag 18:00 - Trainer C": [
-          [
-            "Tom Hendriks",
+            "Robin Visser",
             6.0
           ]
         ]
       },
-      "manual_needed": [
-        [
-          "Piet Bakker",
-          3.0,
-          "Alle voorkeuren zaten vol of geen match"
-        ],
-        [
-          "Mike Peters",
-          5.0,
-          "Alle voorkeuren zaten vol of geen match"
-        ]
-      ],
+      "manual_needed": [],
       "assigned": [
         {
-          "name": "Tom Hendriks",
+          "name": "Emma de Vries",
+          "level": 7.0,
+          "training": "Maandag 19:00 - Trainer A"
+        },
+        {
+          "name": "Sophie van der Berg",
+          "level": 8.0,
+          "training": "Maandag 19:00 - Trainer A"
+        },
+        {
+          "name": "David Peters",
+          "level": 9.0,
+          "training": "Maandag 19:00 - Trainer A"
+        },
+        {
+          "name": "Lucas Janssen",
+          "level": 5.0,
+          "training": "Dinsdag 20:00 - Trainer B"
+        },
+        {
+          "name": "Milan Bakker",
+          "level": 4.0,
+          "training": "Dinsdag 20:00 - Trainer B"
+        },
+        {
+          "name": "Anna Smit",
           "level": 6.0,
           "training": "Woensdag 18:00 - Trainer C"
+        },
+        {
+          "name": "Tom de Groot",
+          "level": 5.0,
+          "training": "Woensdag 18:00 - Trainer C"
+        },
+        {
+          "name": "Robin Visser",
+          "level": 6.0,
+          "training": "Woensdag 18:00 - Trainer C"
+        },
+        {
+          "name": "Lisa van Dijk",
+          "level": 3.0,
+          "training": "Dinsdag 20:00 - Trainer B"
+        },
+        {
+          "name": "Mila Hendriks",
+          "level": 7.0,
+          "training": "Maandag 19:00 - Trainer A"
         }
-      ]
+      ],
+      "working_period": "Nieuwe periode",
+      "period_type": "current"
+    },
+    {
+      "round": 2,
+      "timestamp": "2025-06-23T14:08:55.178131",
+      "assigned_by_training": {
+        "Woensdag 18:00 - Trainer C": [
+          [
+            "Lucas Janssen",
+            5.0
+          ]
+        ],
+        "Maandag 19:00 - Trainer A": [
+          [
+            "Milan Bakker",
+            4.0
+          ],
+          [
+            "Anna Smit",
+            6.0
+          ],
+          [
+            "Lisa van Dijk",
+            3.0
+          ],
+          [
+            "Mila Hendriks",
+            7.0
+          ]
+        ]
+      },
+      "manual_needed": [],
+      "assigned": [
+        {
+          "name": "Lucas Janssen",
+          "level": 5.0,
+          "training": "Woensdag 18:00 - Trainer C"
+        },
+        {
+          "name": "Milan Bakker",
+          "level": 4.0,
+          "training": "Maandag 19:00 - Trainer A"
+        },
+        {
+          "name": "Anna Smit",
+          "level": 6.0,
+          "training": "Maandag 19:00 - Trainer A"
+        },
+        {
+          "name": "Lisa van Dijk",
+          "level": 3.0,
+          "training": "Maandag 19:00 - Trainer A"
+        },
+        {
+          "name": "Mila Hendriks",
+          "level": 7.0,
+          "training": "Maandag 19:00 - Trainer A"
+        }
+      ],
+      "working_period": "Nieuwe periode",
+      "period_type": "current"
+    },
+    {
+      "round": 3,
+      "timestamp": "2025-06-23T14:09:18.036666",
+      "assigned_by_training": {
+        "Vrijdag 17:30 - 19:00": [
+          [
+            "Mila Hendriks",
+            7.0
+          ]
+        ],
+        "Dinsdag 20:00 - Trainer B": [
+          [
+            "Milan Bakker",
+            4.0
+          ]
+        ]
+      },
+      "manual_needed": [],
+      "assigned": [
+        {
+          "name": "Mila Hendriks",
+          "level": 7.0,
+          "training": "Vrijdag 17:30 - 19:00"
+        },
+        {
+          "name": "Milan Bakker",
+          "level": 4.0,
+          "training": "Dinsdag 20:00 - Trainer B"
+        }
+      ],
+      "working_period": "Nieuwe periode",
+      "period_type": "current"
     }
   ]
 }

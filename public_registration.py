@@ -48,10 +48,10 @@ st.markdown("""
     .css-10trblm {display: none !important;}
     .css-1inwz65 {display: none !important;}
     
-    /* Dark theme for main app */
+    /* Dark theme for main app with improved mobile readability */
     .stApp {
         background-color: #1e1e1e;
-        color: #e0e0e0;
+        color: #f0f0f0;
     }
     
     /* Custom styling for main content */
@@ -60,9 +60,9 @@ st.markdown("""
         background-color: #1e1e1e;
     }
     
-    /* Soft dark form styling */
+    /* Soft dark form styling with better mobile contrast */
     .stForm {
-        border: 1px solid #404040;
+        border: 1px solid #505050;
         border-radius: 15px;
         padding: 2.5rem;
         margin: 1.5rem 0;
@@ -70,32 +70,61 @@ st.markdown("""
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     }
     
-    /* Form input styling */
+    /* Form input styling with higher contrast */
     .stTextInput > div > div > input {
-        background-color: #3a3a3a;
-        color: #e0e0e0;
-        border: 1px solid #555555;
+        background-color: #404040 !important;
+        color: #ffffff !important;
+        border: 2px solid #666666 !important;
         border-radius: 8px;
+        font-size: 16px !important;
+        font-weight: 500 !important;
     }
     
     .stTextInput > div > div > input:focus {
-        border-color: #4CAF50;
-        box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+        border-color: #4CAF50 !important;
+        box-shadow: 0 0 8px rgba(76, 175, 80, 0.5) !important;
+        background-color: #4a4a4a !important;
     }
     
-    /* Text area styling */
+    /* Text area styling with improved visibility */
     .stTextArea > div > div > textarea {
-        background-color: #3a3a3a;
-        color: #e0e0e0;
-        border: 1px solid #555555;
+        background-color: #404040 !important;
+        color: #ffffff !important;
+        border: 2px solid #666666 !important;
         border-radius: 8px;
+        font-size: 16px !important;
+        font-weight: 500 !important;
     }
     
-    /* Select box styling */
+    .stTextArea > div > div > textarea:focus {
+        border-color: #4CAF50 !important;
+        box-shadow: 0 0 8px rgba(76, 175, 80, 0.5) !important;
+        background-color: #4a4a4a !important;
+    }
+    
+    /* Select box styling with better contrast */
     .stSelectbox > div > div > select {
-        background-color: #3a3a3a;
-        color: #e0e0e0;
-        border: 1px solid #555555;
+        background-color: #404040 !important;
+        color: #ffffff !important;
+        border: 2px solid #666666 !important;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    
+    /* Selectbox dropdown options styling */
+    .stSelectbox > div > div > div[role="listbox"] {
+        background-color: #404040 !important;
+        border: 2px solid #666666 !important;
+    }
+    
+    .stSelectbox > div > div > div[role="option"] {
+        background-color: #404040 !important;
+        color: #ffffff !important;
+    }
+    
+    .stSelectbox > div > div > div[role="option"]:hover {
+        background-color: #505050 !important;
+        color: #ffffff !important;
     }
     
     /* Slider styling */
@@ -103,35 +132,112 @@ st.markdown("""
         background-color: #4CAF50;
     }
     
-    /* Button styling */
+    /* Button styling with improved mobile touch */
     .stButton > button {
-        background-color: #4CAF50;
-        color: white;
-        border: none;
+        background-color: #4CAF50 !important;
+        color: white !important;
+        border: none !important;
         border-radius: 8px;
-        padding: 0.75rem 2rem;
-        font-weight: bold;
+        padding: 1rem 2rem !important;
+        font-weight: bold !important;
+        font-size: 16px !important;
+        min-height: 50px !important;
         box-shadow: 0 2px 8px rgba(76, 175, 80, 0.3);
     }
     
     .stButton > button:hover {
-        background-color: #45a049;
+        background-color: #45a049 !important;
         box-shadow: 0 4px 12px rgba(76, 175, 80, 0.4);
     }
     
-    /* Checkbox styling */
+    /* Checkbox styling with better visibility */
     .stCheckbox > label {
-        color: #e0e0e0;
+        color: #f0f0f0 !important;
+        font-size: 16px !important;
+        font-weight: 500 !important;
     }
     
-    /* Headers styling */
+    .stCheckbox input[type="checkbox"] {
+        transform: scale(1.3) !important;
+        margin-right: 10px !important;
+    }
+    
+    /* Headers styling with white text */
     h1, h2, h3, h4, h5, h6 {
-        color: #ffffff;
+        color: #ffffff !important;
+        font-weight: 600 !important;
     }
     
-    /* Markdown text styling */
+    /* Markdown text styling with much better contrast - but allow inline styles to override */
     .stMarkdown {
-        color: #d0d0d0;
+        color: #f0f0f0;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    
+    .stMarkdown p {
+        color: #f0f0f0;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .stMarkdown strong {
+        color: #ffffff;
+        font-weight: 600;
+    }
+    
+    /* Form labels with high contrast */
+    .stTextInput > label,
+    .stTextArea > label,
+    .stSelectbox > label,
+    .stSlider > label,
+    .stRadio > label {
+        color: #ffffff !important;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        margin-bottom: 8px !important;
+    }
+    
+    /* Radio button styling */
+    .stRadio > div > label {
+        color: #f0f0f0 !important;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    
+    /* Mobile specific improvements */
+    @media (max-width: 768px) {
+        .stForm {
+            padding: 1.5rem !important;
+            margin: 1rem 0 !important;
+        }
+        
+        .stTextInput > div > div > input,
+        .stTextArea > div > div > textarea,
+        .stSelectbox > div > div > select {
+            font-size: 18px !important;
+            padding: 12px !important;
+            min-height: 50px !important;
+        }
+        
+        .stMarkdown {
+            font-size: 17px !important;
+            line-height: 1.7 !important;
+        }
+        
+        .stTextInput > label,
+        .stTextArea > label,
+        .stSelectbox > label,
+        .stSlider > label,
+        .stRadio > label {
+            font-size: 17px !important;
+            font-weight: 700 !important;
+        }
+        
+        .stCheckbox > label {
+            font-size: 17px !important;
+            font-weight: 600 !important;
+        }
     }
     
     /* Success/Error messages */
@@ -152,6 +258,21 @@ st.markdown("""
         background-color: #1e3a5f;
         border: 1px solid #2196F3;
         color: #bbdefb;
+    }
+    
+    /* Keep custom info boxes with light background readable */
+    .stMarkdown div[style*="background-color: rgb(231, 243, 255)"] {
+        background-color: rgb(231, 243, 255) !important;
+        color: rgb(49, 51, 63) !important;
+        border: 1px solid rgba(49, 51, 63, 0.2) !important;
+    }
+    
+    .stMarkdown div[style*="background-color: rgb(231, 243, 255)"] strong {
+        color: rgb(49, 51, 63) !important;
+    }
+    
+    .stMarkdown div[style*="background-color: rgb(231, 243, 255)"] * {
+        color: rgb(49, 51, 63) !important;
     }
 </style>
 

@@ -58,6 +58,14 @@ def plan_spelers(inschrijvingen, trainingen):
         if toegewezen:
             toegewezen_per_training[toegewezen].append((naam, niveau))
         else:
-            handmatig.append((naam, niveau if niveau is not None else "?", reden))
+            # Collect preferences for manual assignment
+            voorkeuren = []
+            for pref_col in ["Voorkeur_1", "Voorkeur_2", "Voorkeur_3"]:
+                pref_val = speler.get(pref_col)
+                if pd.notna(pref_val) and str(pref_val).strip():
+                    voorkeuren.append(str(pref_val).strip())
+            
+            opgaves_text = ", ".join(voorkeuren) if voorkeuren else "Geen opgaves"
+            handmatig.append((naam, niveau if niveau is not None else "?", opgaves_text, reden))
 
     return toegewezen_per_training, handmatig
