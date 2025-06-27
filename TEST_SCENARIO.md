@@ -22,8 +22,8 @@
 10. **Mike Peters** (Niveau 5, 3x/week) → Woensdag Gemengd Training ✅
 
 #### ❌ **Verwachte Handmatige Gevallen:**
-- **Sophie Berg** (Niveau 10) - "Niveau te hoog voor alle trainingen"
-- **Alex de Jong** (Niveau 0) - "Niveau te laag voor alle trainingen"  
+- **Sophie Berg** (Niveau 1) - "Niveau te goed voor Beginners training (6-9), past alleen in Gevorderden/Gemengd"
+- **Alex de Jong** (Niveau 9) - "Kan alleen in Beginners of Gemengd, afhankelijk van capaciteit"  
 - **Jan de Vries** (Niveau 5) - "Alle voorkeuren zaten vol of geen match"
 - **Anna Smit** (Niveau 1) - "Alle voorkeuren zaten vol of geen match"
 - **Kevin Mulder** (Niveau 2) - "Alle voorkeuren zaten vol of geen match"
@@ -42,7 +42,8 @@
 - **Tom Hendriks** → Mogelijk Woensdag Gemengd ✅
 
 #### ❌ **Verwachte Handmatige Gevallen:**
-- **Jan de Vries, Anna Smit, Alex de Jong** - Niveau problemen
+- **Jan de Vries, Anna Smit** - Niveau problemen
+- **Alex de Jong** - Capaciteitsproblemen (niveau 9 past wel, maar mogelijk vol)
 - **Piet Bakker, Mike Peters** - Mogelijk capaciteitsproblemen
 
 ### 🎯 **Ronde 3 - Derde Training (3 personen die 3x willen)**
@@ -61,8 +62,8 @@
    - [ ] Ronde 3: Alleen 3 personen (3x per week)
 
 2. **Edge Cases:**
-   - [ ] Niveau te hoog (Sophie Berg - niveau 10)
-   - [ ] Niveau te laag (Alex de Jong - niveau 0)  
+   - [ ] Niveau te goed voor beginners training (Sophie Berg - niveau 1)
+   - [ ] Niveau past alleen in beginners (Alex de Jong - niveau 9)  
    - [ ] Capaciteit vol (meerdere mensen willen Maandag Beginners)
    - [ ] Niveau net buiten range (Jan niveau 5 voor Beginners 6-9)
 
